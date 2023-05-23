@@ -120,15 +120,25 @@
 
 @media  (max-width: 666px) {
     .hamicon{
-        display: var(--text-color);
+        display: var(--text-color); 
         margin-top: -60px;
+        cursor: pointer;
+    }
+    .nav1 a{
+        margin: 8px;
+    }
+
+    .nav1 {
+        display: none;
+        
     }
 
 
-
-    .nav1 a{
-        display: none;
-        
+    .heroimg{
+        width: 300px;
+        border-radius: 100%;
+        margin-top: -20%;
+    
     }
 
 
@@ -141,6 +151,26 @@
     
     .fixed{
         position: relative;
+    }
+ 
+    .text{
+        margin-top: -18%;
+    }
+
+    .resskills{   /*responsive skills*/
+        margin-top: -15%;
+    }
+
+    .serbox{      /*responsive skills*/
+        margin-top: -5%;
+    }
+
+    .resservice{
+        margin-top: -25%;
+    }
+
+    .service1{
+        margin-top: -13%;
     }
 
 }
@@ -174,6 +204,7 @@
     font-weight: 700;
     margin-top: -3.9%;
     margin-left: -1%;
+    
 }
 
 .herotext span{
@@ -200,7 +231,7 @@
 .social-media a:hover {
     background: var(--main-color);
     color: var(--second-bg-color);
-    box-shadow: 0 0 1rem var(--main-color);
+    box-shadow: 0 0 0.5rem var(--main-color);
 }
 
 .btn {
@@ -208,7 +239,7 @@
     padding: .5rem 2rem;
     background: var(--main-color);
     border-radius: 4rem;
-    box-shadow: 0 0 1rem var(--main-color);
+    box-shadow: 0 0 .5rem var(--main-color);
     font-size: 1rem;
     color: var(--second-bg-color);
     letter-spacing: 0.01rem;
@@ -219,17 +250,11 @@
 .btn:hover{
     box-shadow: none;
 }
-
-.skill:hover{
-    border: 1px solid var(--main-color);
-    cursor: pointer;
-}
-
 .meeting{
     padding: .5rem 2rem;
     background: var(--main-color);
     border-radius: 4rem;
-    box-shadow: 0 0 1rem var(--main-color);
+    box-shadow: 0 0 .5rem var(--main-color);
     font-size: 1rem;
     color: var(--second-bg-color);
     letter-spacing: 0.01rem;
@@ -254,8 +279,25 @@
 .bar{               /*Service*/
     width: 80%;
     margin-left: 10%;
+    border: 1px solid var(--second-bg-color);
 }
 
-.mail{
-    font-size: 14px;
+.bar:hover{
+    background: transparent;
+    cursor: pointer;
+}
+
+.sericon{
+    font-size: 55px;
+    height: 70px;
+    color: var(--main-color)
+}
+
+.serbox{
+    border-radius: 10%;
+}
+
+.serbox:hover{
+    border: 1px solid var(--main-color);
+    cursor: pointer;
 }
