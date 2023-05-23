@@ -118,10 +118,10 @@
     margin-left: 100%;
 }
 
-@media  (max-width: 1080px) {
+@media  (max-width: 768px) {
     .hamicon1{
         display: var(--text-color);
-        margin-top: -61px;
+        margin-top: -60px;
     }
 
 
