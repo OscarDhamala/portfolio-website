@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box div{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: 3px solid rgba(255, 255, 255, 0.8);
+}
+
+.box div:nth-child(1){
+    top: 12%;
+    left: 42%;
+    animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(2){
+    top: 70%;
+    left: 50%;
+    animation: animate 7s linear infinite;
+}
+
+.box div:nth-child(3){
+    top: 17%;
+    left: 6%;
+    animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(4){
+    top: 20%;
+    left: 60%;
+    animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(5){
+    top: 76%;
+    left: 10%;
+    animation: animate 6s linear infinite;
+}
+
+.box div:nth-child(6){
+    top: 80%;
+    left: 70%;
+    animation: animate 12s linear infinite;
+}
+
+.box div:nth-child(7){
+    top: 60%;
+    left: 80%;
+    animation: animate 15s linear infinite;
+}
+
+.box div:nth-child(8){
+    top: 32%;
+    left: 25%;
+    animation: animate 16s linear infinite;
+}
+
+.box div:nth-child(9){
+    top: 90%;
+    left: 25%;
+    animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(10){
+    top: 20%;
+    left: 80%;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.3) translateY(-90px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+
+.logo {
+    font-size: 1.75rem;
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+
+.heroimg{
+    width: 300px;
+    border-radius: 100%;
+    margin-top: 15%;
+
+}
+
+.nav1 a{
+    font-size: 1.1rem;
+    color: var(--text-color);
+    transition: 0.5s;
+    
+}
+
+.nav1 a:hover{
+    color: var(--main-color)
+}
+
+.herotext{
+    margin-top: 20%;
+}
+
+.herotext h1{
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: -3.5%;
+}
+
+.herotext h2{
+    font-size: 2.22rem;
+    font-weight: 700;
+    margin-top: -3.9%;
+    margin-left: -1%;
+}
+
+.herotext span{
+    color: var(--main-color);
+}
+
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.95rem;
+    height: 1.85rem;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    border-radius: 40%;
+    font-size: 1.175rem;
+    color: var(--main-color);
+    margin: 2rem .5rem 2rem 0;
+    transition: .5s ease ease;
+    margin-top: 6.5%;
+    
+}
+
+.social-media a:hover {
+    background: var(--main-color);
+    color: var(--second-bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+.btn {
+    display: inline-block;
+    padding: .5rem 2rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1rem;
+    color: var(--second-bg-color);
+    letter-spacing: 0.01rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.btn:hover{
+    box-shadow: none;
+}
+
+.skill:hover{
+    border: 1px solid var(--main-color);
+    cursor: pointer;
+}
+
+.meeting{
+    padding: .5rem 2rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1rem;
+    color: var(--second-bg-color);
+    letter-spacing: 0.01rem;
+    font-weight: 600;
+    transition: .5s ease;
+    margin-top: 5%;
+}
+
+.meeting:hover{
+    box-shadow: none;
+}
+
+.service{
+    margin-top: -7%;
+}
+
+.fixed{
+    width: 100%;  
+}
