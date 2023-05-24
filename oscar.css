@@ -279,11 +279,12 @@
 .bar{               /*Service*/
     width: 80%;
     margin-left: 10%;
-    border: 1px solid var(--second-bg-color);
+    border: 3px solid var(--second-bg-color);
 }
 
 .bar:hover{
     background: transparent;
+    transition: .3s;
     cursor: pointer;
 }
 
